@@ -1,0 +1,7 @@
+.wrap { width: 800px; margin: 0 auto; }
+
+a { display: inline-block; position: relative; text-decoration: none; font: 24px Times New Roman; color: #857A00; margin-bottom: 20px; }
+a span.s { display: inline-block; }
+a span.f { display: inline; position: relative; }
+a span.f:after { display: block; opacity: 0; position: absolute; left: 0; bottom: 0; content: ''; width: 100%; height: 1px; background: #857A00; transition: all 0.5s ease; }
+a:hover span.f:after { opacity: 1; }
